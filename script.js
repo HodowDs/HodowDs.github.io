@@ -19,6 +19,7 @@ window.onload = function() {
         var currentMessage = "Mensaje presente";
         document.getElementById("currentMessage").innerHTML = futureMessage;
       }
+      
     }, 1000);
   };
   
