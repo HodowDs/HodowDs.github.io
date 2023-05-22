@@ -12,7 +12,7 @@ window.onload = function() {
       var months = Math.floor(timeDifference / (1000 * 60 * 60 * 24 * 30.4375)) % 12;
       var years = Math.floor(timeDifference / (1000 * 60 * 60 * 24 * 30.4375 * 12));
   
-      document.getElementById("timer").innerHTML = "Han pasado " + years + " años, " + months + " meses, " + days + " días, " + hours + " horas, " + minutes + " minutos y " + seconds + " segundos desde el 27 de octubre de 2022.";
+      document.getElementById("timer").innerHTML = "Han pasado " + years + " años, " + months + " meses, " + days + " días, " + hours + " horas, " + minutes + " minutos y " + seconds + " segundos desde el día en el que tu y yo comenzamos a salir";
   
       if (currentDate.getDate() === 27) {
         var futureMessage = "Mensaje futuro";
