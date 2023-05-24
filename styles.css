@@ -33,10 +33,6 @@ body {
     color: #000000;
     margin: 25px auto;
   }
-  
-
-  
-
   header {
     width:100%; /* Establecemos que el header abarque el 100% del documento */
     overflow:hidden; /* Eliminamos errores de float */
@@ -51,13 +47,6 @@ body {
     overflow:hidden; /* Eliminamos errores de float */
   }
   
-  header .logo {
-    color:#f2f2f2;
-    font-size:50px;
-    line-height:20px;
-    float:left;
-  }
-  
   header nav {
     float:right;
     margin: 20px;
@@ -68,14 +57,14 @@ body {
     display:inline-block;
     color:#000000;
     text-decoration:none;
-    padding:10px 20px;
+    padding:5px 20px;
     line-height:normal;
     font-size:15px;
     font-weight:bold;
     -webkit-transition:all 500ms ease;
     -o-transition:all 500ms ease;
     transition:all 500ms ease;
-    margin-top: 7px;
+    margin-top: 3px;
   }
   
   header nav a:hover {
@@ -84,25 +73,4 @@ body {
   }
   img{
     height: 80px;
-  }
-
-  @media screen and (max-width:800px ) {
-    img {
-      display: flex;  
-      height: 60px;
-      padding:5px 20px;
-      margin: ;
-    }
-    header nav a {
-      display: flex;
-      color:#000000;
-      text-decoration:none;
-      padding:5px 20px;
-      line-height:normal;
-      font-size:12px;
-      font-weight:bold;
-      -webkit-transition:all 500ms ease;
-      -o-transition:all 500ms ease;
-      transition:all 500ms ease;
-    }
   }
