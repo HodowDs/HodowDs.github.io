@@ -4,7 +4,7 @@
 }
 
   h1 {
-    color: #000000;
+    color: #5e5c5c;
     margin-top: 50px;
   }
   
@@ -60,7 +60,7 @@
     height: 80px;
   }
   
-  ul a{
+  li a{
     display: flex;
     flex-direction: column;
     text-decoration: none;
@@ -72,9 +72,14 @@
     transition:all 500ms ease;
   }
 
-  ul a:hover{
+  li a:hover{
     background:#9ff7d8;
     border-radius:50px;
-    
   }
-  
+  ul{
+    list-style-type: none;
+  }
+
+  .id{
+    align-items: left, butt;
+  }
