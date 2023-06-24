@@ -1,5 +1,5 @@
 window.onload = function() {
-  var targetDate = new Date("June 10, 2020").getTime();
+  var targetDate = new Date("october 27, 2022").getTime();
 
   setInterval(function() {
     var currentDate = new Date();
@@ -13,7 +13,7 @@ window.onload = function() {
     var minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-    document.getElementById("timer").innerHTML = "Han pasado " + years + " años, " + months + " meses, "  + weeks + " semanas, " + days + " días, " + hours + " horas, " + minutes + " minutos y " + seconds + " segundos desde el día que tú y yo somos mejores amigos";
+    document.getElementById("timer").innerHTML = "Han pasado " + years + " años, " + months + " meses, "  + weeks + " semanas, " + days + " días, " + hours + " horas, " + minutes + " minutos y " + seconds + " segundos desde el día que tú y yo somos novios";
 
   }, 1000);
 };
