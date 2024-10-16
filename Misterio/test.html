@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prueba 2</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bienvenida a la segunda prueba, diviertete</h1>
+        <form id="quizForm">
+            <div class="question">
+                <label>¿cual es nuetro día más especial?</label><br>
+                <input type="radio" name="q1" value="A"> A. 27 de octubre de 2022 <br>
+                <input type="radio" name="q1" value="B"> B. 10 de junio de 2020 <br>
+                <input type="radio" name="q1" value="C"> C. 27 de cada mes <br>
+            </div>
+            <div class="question">
+                <label>¿que juego jugamos juntos de principio a fin?</label><br>
+                <input type="radio" name="q2" value="A"> A. minecraft <br>
+                <input type="radio" name="q2" value="B"> B. biped <br>
+                <input type="radio" name="q2" value="C"> C. portal 2 <br>
+            </div>
+            <div class="question">
+                <label>¿Cual es nuestro día favorito por un evento especial?</label><br>
+                <input type="radio" name="q3" value="A"> A. Miercoles<br>
+                <input type="radio" name="q3" value="B"> B. Domingo <br>
+                <input type="radio" name="q3" value="C"> C. Jueves <br>
+            </div>
+            <div class="question">
+                <label>¿Como se dice te amo en dinosaurio?</label><br>
+                <input type="radio" name="q4" value="A"> A. Rawr <br>
+                <input type="radio" name="q4" value="B"> B. Rowr <br>
+                <input type="radio" name="q4" value="C"> C. RAARRWSRASR <br>
+            </div>
+            <div class="question">
+                <label>¿cuantos días estamos cumpliendo?</label><br>
+                <input type="radio" name="q5" value="A"> 731  <br>
+                <input type="radio" name="q5" value="B"> 634 <br>
+                <input type="radio" name="q5" value="C"> 721 <br>
+            </div>
+            <button type="button" onclick="checkAnswers()">Enviar</button>
+            <p id="message"></p>
+        </form>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
