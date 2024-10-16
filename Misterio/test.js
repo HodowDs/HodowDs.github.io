@@ -20,7 +20,7 @@ function checkAnswers() {
 
     const message = document.getElementById('message');
     if (allCorrect) {
-        window.location.href = "";
+        window.location.href = "https://hodowds.github.io/Misterio/hackeo";
     } else {
         message.textContent = "Algunas respuestas son incorrectas. ¡Inténtalo de nuevo!";
         message.style.color = 'red';
