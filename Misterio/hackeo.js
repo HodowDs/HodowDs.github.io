@@ -44,7 +44,62 @@ function checkCommand() {
             poem.style.display = 'block';
             break;
         case "siguiente":
-            window.location.href = "http://pagina-destino.com";  // Aquí pon la URL a la que deseas redirigir
+            window.location.href = "https://hodowds.github.io/Misterio/2años";  // Aquí pon la URL a la que deseas redirigir
+            break;
+        case "Cita":
+            output.textContent = "Vale por una cita cuando quieras, toma captura :)";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "Gatito":
+            output.textContent = "Ahora vamos a tener 90 gatitos y no puedes hacer nada muajajajajaja";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "Sexo":
+            output.textContent = "Cuando quieras bb";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "Regalo":
+            output.textContent = "Escrible la palabra siguiente para ir a tu regalo :D";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "Beso":
+            output.textContent = "Vale por muchos besos";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "Estrella":
+            output.textContent = "Tu eres una estrella porque a pesar de la distancia tu luz es lo más lindo del mundo.";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "Platosanetachun":
+            output.textContent = "Te amo con todo mi corazón :D";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "2022":
+            output.textContent = "El año en el que comenzamos a salir tu y yo";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "Chachacha":
+            output.textContent = "Vale por cantarte la canción que quieras cuando quieras";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "Pelicula":
+            output.textContent = "Ya lo escribiste y no hay vuelta atrás ahora tenemos que ver una peli muajajajaja";
+            output.style.color = 'white';
+            poem.style.display = 'none';
+            break;
+        case "Aniversario":
+            output.textContent = "Uno de los momentos mas lindos :D";
+            output.style.color = 'white';
+            poem.style.display = 'none';
             break;
         default:
             output.textContent = "Comando incorrecto. Intenta de nuevo.";
@@ -52,7 +107,3 @@ function checkCommand() {
         
     }
 }
-
-
-
-
