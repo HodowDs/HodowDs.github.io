@@ -4,7 +4,7 @@ function checkCode() {
     const message = document.getElementById('message');
 
     if (codeInput === correctCode) {
-        window.location.href = "https://lectorikigai.acamu.net/series/punto-de-vista-del-lector-omnisciente/";
+        window.location.href = "https://hodowds.github.io/Misterio/test.html";
     } else {
         message.textContent = "Ese no es, animo amor.";
         message.style.color = 'pink';
